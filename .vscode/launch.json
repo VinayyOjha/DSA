@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run CountDigits",
+      "request": "launch",
+      "mainClass": "CountDigits",
+      "classPaths": ["out"]
+    },
+    {
+      "type": "java",
+      "name": "Run ReverseNum",
+      "request": "launch",
+      "mainClass": "ReverseNum",
+      "classPaths": ["out"]
+    }
+  ]
+}
