@@ -14,6 +14,7 @@ public class Sum{
         sumusingRecursion(n - 1, sum + n);
     }
 
+    // Using int as return type
     public static int NumberSum(int n){
         if (n <= 0) return 0;
 
