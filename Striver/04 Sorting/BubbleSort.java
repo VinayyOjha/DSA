@@ -11,8 +11,10 @@ public class BubbleSort{
 
     private static void sortArray(int[] arr) {
         for(int i = 0; i < arr.length; i++){
-            for(int j = i; j < arr.length - 1; j++){
+            for(int j = 0; j < arr.length - 1; j++){
                 if(arr[j] > arr[j+1]){
+                    System.out.print(arr[j] + " " + arr[j + 1]);
+                    System.out.println();
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
